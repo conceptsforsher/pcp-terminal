@@ -314,8 +314,8 @@ const Command kCommands[] = {
 
 void usage() {
     std::cerr <<
-        "progressive-terminal — lightweight curl-wrapper for progressive-chat (cli)\n\n"
-        "Usage: progressive-terminal <command> [options]\n\nCommands:\n";
+        "pcp-terminal — lightweight curl-wrapper for pcp-chat (cli)\n\n"
+        "Usage: pcp-terminal <command> [options]\n\nCommands:\n";
     for (const auto& c : kCommands)
         std::cerr << "  " << c.name << "  " << c.brief << "\n";
     std::cerr <<

@@ -3,7 +3,7 @@
 
 namespace pt { namespace proto {
 
-// The wire contract of `progressive-cli serve --ttys`, in ONE place.
+// The wire contract of `pcp-cli serve --ttys`, in ONE place.
 // Every request body the client can send is built here; nothing else
 // concatenates protocol JSON.
 

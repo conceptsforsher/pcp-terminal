@@ -16,7 +16,7 @@ static curl-wrapper, or to compile faster.
 - **English only** in all committed content: code, comments, commit messages,
   docs. No other languages.
 - Keep the binary dependency-light: only `libcurl` is required. Do not pull in
-  the Matrix core here — that lives on the `progressive-cli` relay side.
+  the Matrix core here — that lives on the `pcp-cli` relay side.
 - `src/json.cpp` is a deliberately tiny JSON helper (string extraction only).
   Extend it there rather than adding a full JSON library.
 

@@ -3,7 +3,7 @@
 
 namespace pt {
 
-// Request one rendered frame from a `progressive-cli serve --ttys` server.
+// Request one rendered frame from a `pcp-cli serve --ttys` server.
 // Detects the terminal size (unless cols/rows are forced) and POSTs it as
 // term:{cols,rows}. When `static_only` is set, the server returns a single
 // non-interactive ASCII snapshot. Returns the raw frame text (newlines

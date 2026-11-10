@@ -22,9 +22,9 @@ namespace {
 std::string base_dir() {
 #ifdef __unix__
     std::string home = getenv("HOME") ? getenv("HOME") : ".";
-    return home + "/.config/progressive-terminal";
+    return home + "/.config/pcp-terminal";
 #else
-    return ".progressive-terminal";
+    return ".pcp-terminal";
 #endif
 }
 std::string profiles_dir() { return base_dir() + "/profiles"; }

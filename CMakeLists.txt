@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(progressive-terminal VERSION 0.1.0 LANGUAGES CXX)
+project(pcp-terminal VERSION 0.1.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -11,7 +11,7 @@ endif()
 
 find_package(CURL REQUIRED)
 
-add_executable(progressive-terminal
+add_executable(pcp-terminal
     src/main.cpp
     src/proto.cpp
     src/http.cpp
@@ -22,7 +22,7 @@ add_executable(progressive-terminal
 )
 
 
-target_include_directories(progressive-terminal PRIVATE src)
-target_link_libraries(progressive-terminal PRIVATE CURL::libcurl)
+target_include_directories(pcp-terminal PRIVATE src)
+target_link_libraries(pcp-terminal PRIVATE CURL::libcurl)
 
-install(TARGETS progressive-terminal RUNTIME DESTINATION bin)
+install(TARGETS pcp-terminal RUNTIME DESTINATION bin)
