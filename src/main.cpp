@@ -1,4 +1,4 @@
-// progterm-lite — special proxy to the full client (progressive-cli).
+// progterm-lite — special proxy to the full client (pcp-cli).
 //
 // ANY string you type is delivered verbatim as input to the full client's
 // REPL — chat text or one of its own commands ("/open …", "/help") — and
