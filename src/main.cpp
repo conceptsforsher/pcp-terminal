@@ -1,4 +1,4 @@
-// progressive-terminal (dumb) — a zero-option pipe to `serve --ttys`.
+// pcp-terminal (dumb) — a zero-option pipe to `serve --ttys`.
 //
 //   progterm <path> [json-body]
 //     One request to the relay. POST when a body is given, GET otherwise.

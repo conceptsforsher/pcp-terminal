@@ -3,7 +3,7 @@
 
 namespace pt {
 
-// Auto-locate a `progressive-cli serve --ttys` relay on 127.0.0.1. Probes
+// Auto-locate a `pcp-cli serve --ttys` relay on 127.0.0.1. Probes
 // ports in outward order from `base` (base, base+1, base-1, base+2, ... up to
 // `range`), returning the first URL whose /api/ttys/sync answers like our
 // server. Returns "" when nothing is found.

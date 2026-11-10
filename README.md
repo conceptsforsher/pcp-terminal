@@ -1,6 +1,6 @@
-# progressive-terminal (dumb)
+# pcp-terminal (dumb)
 
-A **zero-option pipe** to a `progressive-cli serve --ttys` relay.
+A **zero-option pipe** to a `pcp-cli serve --ttys` relay.
 One request per invocation: the path is forwarded verbatim, the body is
 sent exactly as typed, the response goes to stdout untouched. The client
 stores nothing anywhere.
